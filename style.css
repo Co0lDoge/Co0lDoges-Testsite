@@ -40,6 +40,7 @@ h2 {
     background-color: #1f2937;
     padding-left: 400px;
     padding-right: 400px;
+    padding-bottom: 128px;
 }
 
 .header-top {
@@ -89,12 +90,21 @@ h2 {
     font-family: 'Hero New', sans-serif;
 }
 
+.quote-container,
 .blue-container {
     display: flex;
     justify-content: space-between;
     padding: 32px;
     gap: 16px;
     font-family: 'Hero New', sans-serif;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    margin-bottom: 64px;
+}
+
+.blue-container {
     color: #f9faf8;
     background-color: #3882f6;
 }
@@ -111,7 +121,31 @@ h2 {
 .content-images {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 48px;
+    margin-top: 32px;
+}
+
+.subtexted-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 8px;
+}
+
+.quote-container p {
+    font-family: 'Hero New', sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 48px;
+}
+
+.quote-container #quoted {
+    text-align: right;
+    font-family: 'Hero New', sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
 }
 
 .footer {
